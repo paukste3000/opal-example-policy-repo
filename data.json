@@ -1,7 +1,7 @@
 {
   "users": {
     "alice": {
-      "roles": ["admin"],
+      "roles": ["employee"],
       "location": {
         "country": "UK",
         "ip": "8.8.8.8"
