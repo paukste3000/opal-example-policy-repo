@@ -89,7 +89,7 @@
      },
      {
        "action": "read",
-       "type": "finance"
+       "type": "wowza"
      }
     ]
   }
