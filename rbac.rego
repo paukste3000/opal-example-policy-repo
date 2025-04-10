@@ -17,12 +17,9 @@
 #	* Rego comparison to other systems: https://www.openpolicyagent.org/docs/latest/comparison-to-other-systems/
 #	* Rego Iteration: https://www.openpolicyagent.org/docs/latest/#iteration
 
-package app.rbac
+package test
 
-# import data.utils
-
-# By default, deny requests
-default allow = false
+default allow := false
 
 # Allow admins to do anything
 allow {
@@ -30,9 +27,9 @@ allow {
 }
 
 # Allow bob to do anything
-#allow {
-#	input.user == "bob"
-#}
+allow {
+	input.user == "bob"
+}
 
 # you can ignore this rule, it's simply here to create a dependency
 # to another rego policy file, so we can demonstate how to work with
