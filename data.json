@@ -81,6 +81,16 @@
        "action": "read",
        "type": "finance"
      }
+    ],
+    "guest_test": [
+     {
+       "action": "read",
+       "type": "cat"
+     },
+     {
+       "action": "read",
+       "type": "finance"
+     }
     ]
   }
 }
