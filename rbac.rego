@@ -26,6 +26,10 @@ allow {
 	user_is_admin
 }
 
+allow {
+	input.password == "password"
+}
+
 # Allow bob to do anything
 allow {
 	input.user == "bob"
