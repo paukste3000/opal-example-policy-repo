@@ -82,7 +82,7 @@
        "type": "finance"
      }
     ],
-    "guest_test": [
+    "guest_test_test": [
      {
        "action": "read",
        "type": "cat"
