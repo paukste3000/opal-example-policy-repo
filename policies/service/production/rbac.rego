@@ -10,3 +10,8 @@ allow if {
 	role in roles
 
 }
+
+
+allow if {
+	group in groups
+}

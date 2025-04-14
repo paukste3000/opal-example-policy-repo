@@ -29,7 +29,7 @@
       }
     }
   },
-  "role_permissions": {
+  "role_permissions_test_again": {
     "customer": [
       {
         "action": "read",
