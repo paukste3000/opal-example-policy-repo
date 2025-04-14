@@ -33,7 +33,7 @@
     "customer": [
       {
         "action": "read",
-        "type": "dog"
+        "type": "cat"
       },
       {
         "action": "read",
@@ -51,7 +51,7 @@
     "employee": [
       {
         "action": "read",
-        "type": "dog"
+        "type": "cat"
       },
       {
         "action": "read",
